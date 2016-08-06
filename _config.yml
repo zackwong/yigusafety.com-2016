@@ -1,0 +1,36 @@
+url: http://www.yigusafety.com-2016
+
+title: YIGU ANTI-SLIP
+
+keywords: YIGU ANTI-SLIP
+
+description: YIGU ANTI-SLIP
+
+permalink: /products/:title.html
+
+relative_permalinks: false
+
+email: eric@yigu-china.com
+
+skype: anson19890830
+
+tel: +86-0757-85929378
+
+fax: +86-0757-85909378
+
+address: No.5-6,Datang Industrial Zone,Shanhai Village,Hengjiang,Yanbu,Dali Town,Nanhai District,Foshan,Guangdong,China
+
+exclude:
+  - README.md
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/js
+    - _assets/css
+  js_compressor: uglifier
+  css_compressor: sass
+  cache: true
+  cache_assets: true
+  gzip: []
