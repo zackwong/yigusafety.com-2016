@@ -4,8 +4,8 @@ permalink: /other-products/
 category: products
 title: Other Products
 ---
-<div class="isotope-container-fitrows row grid-space-10">{% for post in site.categories["other-products"] %}
-  <div class="col-xs-6 col-sm-6 col-md-4 isotope-item">
+<div class="row grid-space-10">{% for post in site.categories["other-products"] %}
+  <div class="col-xs-6 col-sm-6 col-md-4">
     <div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
       <div class="overlay-container"><img src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></div>
       <div class="body">

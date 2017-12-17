@@ -6110,21 +6110,6 @@ h6.media-heading {
   font-size: 30px;
   color: #999999;
 }
-/* Isotope filtering
----------------------------------- */
-.isotope-container {
-  display: none;
-}
-.isotope-container-fitrows {
-  display: none;
-}
-/* Small devices (tablets, phones less than 991px) */
-@media (max-width: 991px) {
-  .isotope-item,
-  .masonry-grid-item {
-    max-width: 100%;
-  }
-}
 /* Affix Menu
 ---------------------------------- */
 .sidebar.affix {

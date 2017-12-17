@@ -3,7 +3,6 @@
 //= require modernizr.js
 //= require jquery.themepunch.tools.min.js
 //= require jquery.themepunch.revolution.min.js
-//= require isotope.pkgd.min.js
 //= require jquery.magnific-popup.min.js
 //= require jquery.parallax-1.1.3.js
 //= require jquery.waypoints.min.js
