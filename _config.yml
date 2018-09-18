@@ -22,14 +22,5 @@ address: No.5-6,Datang Industrial Zone,Shanhai Village,Hengjiang,Yanbu,Dali Town
 
 exclude:
   - README.md
-
-assets:
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/js
-    - _assets/css
-  compress:
-    css: true
-    js: true
-  gzip: []
+  - style.css
+  - style.js

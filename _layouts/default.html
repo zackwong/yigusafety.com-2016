@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/yigu-icon.jpg">
     <meta name="apple-mobile-web-app-title" content="YIGU">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% stylesheet application %}
+    <link type="text/css" rel="stylesheet" href="/assets/application.css">
   </head>
   <body class="no-trans front-page transparent-header">
     <div class="scrollToTop circle"><i class="fa fa-chevron-up"></i></div>
@@ -85,7 +85,7 @@
         </div>
       </footer>
     </div>
-    {% javascript application %}{% if page.category == 'contact' %}
+    <script type="text/javascript" src="/assets/application.js"></script>{% if page.category == 'contact' %}
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_tJ-wd5iVv9_Nki6K75HXRS58C1HzMUw&callback=initMap" type="text/javascript"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript">
